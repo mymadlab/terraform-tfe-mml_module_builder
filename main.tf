@@ -11,7 +11,7 @@ module "tfe_module_manager" {
 
 module "github_repository_manager" {
   source  = "app.terraform.io/mymadlab/mml_repository_manager/github"
-  version = "1.1.0"
+  version = "1.0.0"
 
   repo_name   = var.name
   description = var.description
