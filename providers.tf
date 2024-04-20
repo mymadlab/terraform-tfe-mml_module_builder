@@ -2,7 +2,7 @@ terraform {
   cloud {
     organization = "mymadlab"
     workspaces {
-      tags = ["facility", "infra"]
+      tags = ["infra", "module"]
     }
   }
 
@@ -10,6 +10,10 @@ terraform {
     tfe = {
       source  = "hashicorp/tfe"
       version = ">=0.52.0"
+    }
+    github = {
+      source  = "integrations/github"
+      version = ">=6.0.1"
     }
   }
 
