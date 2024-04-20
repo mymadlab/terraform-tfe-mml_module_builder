@@ -12,7 +12,7 @@ module "terraform_tfe_mml_module_builder" {
   version = "~>1.1.0"
 
   name              = "terraform-provider-name_of_the_module"
-  description       = "Responsible for building terraform modules"
+  description       = "Description of the module being created"
   tfe_org           = "name_of_TFE_org"
   vcs_provider_name = "my_vcs_provider_name_here"
   github_org        = "name_of_github_org"
