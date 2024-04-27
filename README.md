@@ -9,7 +9,7 @@ Responsible for building workspaces with a link repository
 ```HCL
 module "terraform_tfe_mml_module_builder" {
   source  = "app.terraform.io/mymadlab/mml_module_builder/tfe"
-  version = "~>1.1.0"
+  version = "~> 1.1.0"
 
   name              = "terraform-provider-name_of_the_module"
   description       = "Description of the module being created"
