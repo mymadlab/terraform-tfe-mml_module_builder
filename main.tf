@@ -20,4 +20,6 @@ module "github_repository_manager" {
   repo_type   = "module"
   product     = "terraform"
 
+  depends_on = [ module.tfe_module_manager.module ]
+
 }
