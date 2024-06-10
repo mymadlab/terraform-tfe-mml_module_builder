@@ -9,7 +9,7 @@ Responsible for building workspaces with a link repository
 ```HCL
 module "terraform_tfe_mml_module_builder" {
   source  = "app.terraform.io/mymadlab/mml_module_builder/tfe"
-  version = "~> 0.1.0"
+  version = "~> 0.2.0"
 
   name              = "terraform-provider-name_of_the_module"
   description       = "Description of the module being created"
@@ -23,4 +23,4 @@ module "terraform_tfe_mml_module_builder" {
 ## Dependencies
 
 - [hashicorp/tfe](https://registry.terraform.io/providers/hashicorp/tfe/latest): >=0.52.0
-- [integrations/github](https://registry.terraform.io/providers/integrations/github/latest): >=6.0.1
+- [integrations/github](https://registry.terraform.io/providers/integrations/github/latest): >=6.2.0
